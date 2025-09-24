@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inicio — ZILABLACKSHEEP</title>
+  <meta name="description" content="Venta de equipos y servicios de tecnología en México: cómputo, impresoras, periféricos y soporte." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/imagotipo-zila.svg" type="image/png">
+</head>
+<body>
+
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <header>
+    <div class="container">
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <a class="brand" href="index.html">
+          <img src="assets/zila-logo.svg" alt="Logo" />
+          <!-- <strong>ZILA BLACKSHEEP®</strong> -->
+        </a>
+        <ul class="nav-list" id="menu">
+          <li><a href="index.html" aria-current="true">Inicio</a></li>
+          <li><a href="sobre.html" >Sobre nosotros</a></li>
+          <li><a href="contacto.html" >Contacto</a></li>
+        </ul>
+        <div class="nav-cta">
+          <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menú</button>
+          <a class="btn primary" href="contacto.html">Cotizar</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="hero">
+      <div class="blob" aria-hidden="true"></div>
+      <div class="container grid" style="align-items:center;grid-template-columns:1.1fr .9fr">
+        <div class="stack reveal">
+          <span class="muted">Impresoras · Cómputo · Periféricos · Servicios</span>
+          <h1>Soluciones de <span style="background:linear-gradient(90deg,var(--brandA),var(--brandB),var(--brandC));-webkit-background-clip:text;background-clip:text;color:transparent">tecnología</span> que se sienten vivas.</h1>
+          <p>Equipamos tu negocio con productos confiables y soporte experto. Envíos en todo México y atención cercana.</p>
+          <div style="display:flex;gap:.75rem;flex-wrap:wrap">
+            <a class="btn primary" href="#productos">Explorar catálogo</a>
+            <a class="btn secondary" href="sobre.html">Conócenos</a>
+          </div>
+        </div>
+        <figure class="card reveal">
+          <img src="assets/hero-setup.svg" alt="Setup moderno de cómputo" width="1000" height="680" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+    <section id="productos">
+      <div class="container">
+        <h2 class="reveal">Productos destacados</h2>
+        <div class="grid products">
+          <article class="product reveal">
+            <img src="assets/p1.svg" alt="Laptop" loading="lazy" />
+            <div class="meta">
+              <div><strong>Laptops y PC</strong><div class="muted">Oficina y alto desempeño</div></div>
+              <a class="btn secondary" href="contacto.html" aria-label="Cotizar laptops y PC">Cotizar</a>
+            </div>
+          </article>
+          <article class="product reveal">
+            <img src="assets/p2.svg" alt="Impresora" loading="lazy" />
+            <div class="meta">
+              <div><strong>Impresoras y consumibles</strong><div class="muted">Láser, tinta continua, cartuchos</div></div>
+              <a class="btn secondary" href="contacto.html" aria-label="Cotizar impresoras">Cotizar</a>
+            </div>
+          </article>
+          <article class="product reveal">
+            <img src="assets/p3.svg" alt="Periféricos" loading="lazy" />
+            <div class="meta">
+              <div><strong>Periféricos</strong><div class="muted">Teclados, mouse, monitores</div></div>
+              <a class="btn secondary" href="contacto.html" aria-label="Cotizar periféricos">Cotizar</a>
+            </div>
+          </article>
+          <article class="product reveal">
+            <img src="assets/p4.svg" alt="Redes" loading="lazy" />
+            <div class="meta">
+              <div><strong>Redes y conectividad</strong><div class="muted">Routers, switches, Wi‑Fi</div></div>
+              <a class="btn secondary" href="contacto.html" aria-label="Cotizar redes">Cotizar</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="marcas" aria-labelledby="marcas-title">
+      <div class="container stack">
+        <h2 id="marcas-title" class="reveal">Marcas</h2>
+        <div class="card brand-strip reveal">
+          <div class="marquee" aria-hidden="true">
+            <img src="assets/brand-hp.svg" alt="HP" width="140" height="60" />
+            <img src="assets/brand-dell.svg" alt="Dell" width="140" height="60" />
+            <img src="assets/brand-lenovo.svg" alt="Lenovo" width="140" height="60" />
+            <img src="assets/brand-brother.svg" alt="Brother" width="140" height="60" />
+            <img src="assets/brand-canon.svg" alt="Canon" width="140" height="60" />
+            <img src="assets/brand-epson.svg" alt="Epson" width="140" height="60" />
+            <img src="assets/brand-hp.svg" alt="" aria-hidden="true" width="140" height="60" />
+            <img src="assets/brand-dell.svg" alt="" aria-hidden="true" width="140" height="60" />
+            <img src="assets/brand-lenovo.svg" alt="" aria-hidden="true" width="140" height="60" />
+            <img src="assets/brand-brother.svg" alt="" aria-hidden="true" width="140" height="60" />
+            <img src="assets/brand-canon.svg" alt="" aria-hidden="true" width="140" height="60" />
+            <img src="assets/brand-epson.svg" alt="" aria-hidden="true" width="140" height="60" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container grid" style="grid-template-columns:1.2fr .8fr">
+      <div class="stack">
+        <strong>ZILA BLACKSHEEP®</strong>
+        <p class="muted">© <span id="year"></span> Todos los derechos reservados.</p>
+      </div>
+      <div class="grid" style="grid-template-columns:repeat(3,1fr);gap:var(--s3)">
+        <nav class="stack"><a href="#">Aviso de privacidad</a><a href="#">Términos</a></nav>
+        <nav class="stack"><a href="#">LinkedIn</a><a href="#">Instagram</a></nav>
+        <nav class="stack"><a href="mailto:aramirez@zilablacksheep.com.mx">aramirez@zilablacksheep.com.mx</a><a href="tel:+525512345678">55 1234 5678</a></nav>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>

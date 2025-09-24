@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sobre nosotros — ZILABLACKSHEEP</title>
+  <meta name="description" content="Conoce nuestra historia, misión, visión y equipo. Empresa mexicana de tecnología enfocada en soluciones confiables." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/imagotipo-zila.svg" type="image/png">
+</head>
+<body>
+
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <header>
+    <div class="container">
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <a class="brand" href="index.html">
+          <img src="assets/zila-logo.svg" alt="Logo" />
+          <!-- <strong>ZILA BLACKSHEEP®</strong> -->
+        </a>
+        <ul class="nav-list" id="menu">
+          <li><a href="index.html" >Inicio</a></li>
+          <li><a href="sobre.html" aria-current="true">Sobre nosotros</a></li>
+          <li><a href="contacto.html" >Contacto</a></li>
+        </ul>
+        <div class="nav-cta">
+          <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menú</button>
+          <a class="btn primary" href="contacto.html">Cotizar</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="blob" aria-hidden="true"></div>
+      <div class="container stack reveal">
+        <h1>Sobre nosotros</h1>
+        <p class="muted">Más de 10 años acercando tecnología a negocios y hogares en México.</p>
+      </div>
+    </section>
+
+    <section id="historia">
+      <div class="container grid" style="grid-template-columns:1.1fr .9fr;align-items:start">
+        <article class="card reveal">
+          <h2>Nuestra historia</h2>
+          <p>Nacimos con la misión de simplificar la compra y mantenimiento de equipos de tecnología. Hoy atendemos a pymes y corporativos con la misma cercanía.</p>
+          <h3>Valores</h3>
+          <ul>
+            <li>Honestidad en la recomendación de equipos</li>
+            <li>Enfoque en el cliente y tiempos de respuesta ágiles</li>
+            <li>Soporte técnico certificado</li>
+          </ul>
+        </article>
+        <aside class="card reveal">
+          <h2>Lo que nos distingue</h2>
+          <ul>
+            <li>Alianzas con marcas líderes</li>
+            <li>Stock confiable y entregas rápidas</li>
+            <li>Atención postventa y garantías claras</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="equipo">
+      <div class="container">
+        <h2 class="reveal">Nuestro equipo</h2>
+        <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+          <article class="card reveal"><strong>Persona 1</strong><div class="muted">Dirección comercial</div></article>
+          <article class="card reveal"><strong>Persona 2</strong><div class="muted">Soporte técnico</div></article>
+          <article class="card reveal"><strong>Persona 3</strong><div class="muted">Compras</div></article>
+          <article class="card reveal"><strong>Persona 4</strong><div class="muted">Operaciones</div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container grid" style="grid-template-columns:1.2fr .8fr">
+      <div class="stack">
+        <strong>ZILA BLACKSHEEP®</strong>
+        <p class="muted">© <span id="year"></span> Todos los derechos reservados.</p>
+      </div>
+      <div class="grid" style="grid-template-columns:repeat(3,1fr);gap:var(--s3)">
+        <nav class="stack"><a href="#">Aviso de privacidad</a><a href="#">Términos</a></nav>
+        <nav class="stack"><a href="#">LinkedIn</a><a href="#">Instagram</a></nav>
+        <nav class="stack"><a href="mailto:aramirez@zilablacksheep.com.mx">aramirez@zilablacksheep.com.mx</a><a href="tel:+525512345678">55 1234 5678</a></nav>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
